@@ -25,7 +25,6 @@ def on_mouse_down(pos):
 
 def acertou_alien():
     sounds.ouch.play()
-    alienigena.image
     alienigena.image = 'alien_hurt'
     clock.schedule_unique(voltar_alien_normal, 1.0)
     clock.schedule_unique(muda_posicao_alien, 1.0)
